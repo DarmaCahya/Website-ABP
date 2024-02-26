@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+</head>
+<body>
+    <header>
+        <center><h1>Tugas Minggu 1</h1></center><hr>
+    </header>
+
+    <center>
+        <!-- Tabel untuk memperkenalkan karakter anime -->
+        <table>
+            <tbody>
+                <tr>
+                    <!-- Kolom pertama dengan gambar karakter -->
+                    <td style="padding-right: 40px;">
+                        <!-- Menambahkan image karakter -->
+                        <img src="Week 1/618.jpg" height="550px" alt="">
+                        <center>
+                            <p style="font-size: 25px;">Momonga atau <b><i>Ainz Oal Gown</i></b></p>
+                        </center>
+                    </td>
+    
+                    <!-- Kolom kedua dengan deskripsi karakter -->
+                    <td>
+                        <p style="font-size: 30px; margin: 0; margin-bottom: 10px;"><b>Did you know?</b></p>
+                        <!-- Deskripsi karakter -->
+                        <p style="font-size: 20px; margin: 0;">
+                            Momonga, karakter utama dalam "Overlord," adalah pemain yang terperangkap di dalam permainan Yggdrasil setelah server ditutup. <br>
+                            Awalnya, Momonga merasakan kekosongan dan kesepian, tetapi segera menyadari bahwa ia tidak hanya terjebak di dunia virtual yang sangat realistis, <br>
+                            tetapi juga bahwa karakter dan pasukannya yang seharusnya terkontrol oleh pemain lain menjadi hidup dan memiliki kepribadian sendiri. <br>
+                            Dengan kekuatan luar biasa dan kebijaksanaan strategis, Momonga, yang sekarang memakai nama Ainz Ooal Gown, <br>
+                            memutuskan untuk menjelajahi dunia ini yang baru sebagai pemimpin tak terbantahkan dan merangkul perannya sebagai Overlord. <br>
+                            Seiring cerita berkembang, Momonga menghadapi berbagai tantangan, memperkuat keberadaannya, dan menggali misteri di balik keberadaannya di dunia ini.
+                        </p>
+                        <p style="font-size: 20px; margin: 0;"> <br>Jenis kelamin: Laki-laki</p>
+                        <p style="font-size: 20px;"> = <b> Berulang tahun pada tanggal 10 Februari 2023 </b>=</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center><hr>
+     
+     <center>
+        <form>
+            <!--Form untuk menambahkan karakter anime dan informasinya-->
+            <h2>Form Karakter Anime</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="nama">Nama Karakter</label></td>
+                        <td><input type="text" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="foto">Foto Karakter</label></td>
+                        <td><input type="file" id="foto"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="deskripsi">Deskripsi Karakter</label></td>
+                        <td><textarea id="deskripsi" name="" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                            <input type="radio" name="gender" value="undefined"> undefined
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="ulang_tahun">Ulang Tahun Karakter</label></td>
+                        <td><input type="date" id="ulang_tahun"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td></td> <!-- tombol submit -->
+                        <td><br><button>Submit</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center><br><hr>
+    
+    <center>
+        <h2>Bagian Tambahan</h2>
+        <!-- membuat kalkulator menggunakan form-->
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="angka_pertama">Angka Pertama</label>
+                        </td>
+                        <td>
+                            <input type="number" min="0" id="angka_pertama"> <br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="operator1">Operator</label>
+                        </td>
+                        <td>
+                            <input list="operator" id="operator1" name="operator1"><br><br>
+                            <datalist id="operator">
+                                <option value="+"></option>
+                                <option value="-"></option>
+                                <option value="*"></option>
+                                <option value="/"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="angka_kedua">Angka Kedua</label>
+                        </td>
+                        <td>
+                            <input type="number" min="0" id="angka_kedua"> <br><br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <!-- hasil nanti didapat dari proses matematika kedua bilangan diatas-->
+                        <td>
+                            <label for="hasil">Hasil</label>
+                        </td>
+                        <td>
+                            <input type="text" id="hasil">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center><br><hr>    
+
+     <footer>
+        <!--Menambahkan identitas diri saya-->
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://animegirlpng.com/wp-content/webp-express/webp-images/uploads/2023/03/1680234066488-874x1024.png.webp" height="350px" alt="">
+                        </td>
+                        <td>
+                            <h2>Identitas Pemilik Website</h2>
+                            <p style="font-size: 20px;">Nama : I Made Darma Cahya Adyatma <br><br>
+                                Nim : 1301213139 <br><br>
+                                Kelas : IF-45-09 <br><br>
+                                Social Media <br><a href="https://www.instagram.com/darmady_/?next=%2Fexplore%2F"><img src="Week 1/instagram.png" alt=""></a>
+                                <br><br>Hobi : 
+                                <ul style="font-size: 20px;">
+                                    <li>Menonton Anime</li>
+                                    <li>Bermain game</li>
+                                    <li>Halu</li>
+                                </ul>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+     </footer>
+</body>
+</html>
